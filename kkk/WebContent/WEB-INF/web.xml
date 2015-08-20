@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>kkk</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>kkka</display-name>
+    <servlet-name>kkka</servlet-name>
+    <servlet-class>kk.kkka</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>kkka</servlet-name>
+    <url-pattern>/kkka</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>temp</display-name>
+    <servlet-name>temp</servlet-name>
+    <servlet-class>kk.temp</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>temp</servlet-name>
+    <url-pattern>/temp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>chk_serv</display-name>
+    <servlet-name>chk_serv</servlet-name>
+    <servlet-class>chk_serv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>chk_serv</servlet-name>
+    <url-pattern>/chk_serv</url-pattern>
+  </servlet-mapping>
+</web-app>
